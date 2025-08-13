@@ -1,0 +1,11 @@
+root {
+  --primary-color: #2563eb;
+  --secondary-color: #64748b;
+  --success-color: #059669;
+  --warning-color: #d97706;
+  --danger-color: #dc2626;
+}
+
+.robs-container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+.robs-card { background: white; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+.robs-btn { padding: 8px 16px; border-radius: 4px; border: none; cursor: pointer; }
