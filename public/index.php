@@ -137,22 +137,34 @@ try {
     require_once APP_PATH . '/Config/Routes.php';
     
     // Obtener la URL solicitada
-    $requestUri = $_SERVER['REQUEST_URI'];
-    $scriptName = $_SERVER['SCRIPT_NAME'];
-    
-    // Remover el directorio base de la URL
-    $basePath = str_replace('/index.php', '', $scriptName);
-    if ($basePath !== '/' && strpos($requestUri, $basePath) === 0) {
-        $requestUri = substr($requestUri, strlen($basePath));
-    }
-    
-    // Remover query string
-    if (($pos = strpos($requestUri, '?')) !== false) {
-        $requestUri = substr($requestUri, 0, $pos);
-    }
-    
-    // Limpiar la URL
-    $requestUri = '/' . ltrim($requestUri, '/');
+   $requestUri = $_SERVER['REQUEST_URI'];
+$scriptName = $_SERVER['SCRIPT_NAME'];
+
+// Remover query string primero
+if (($pos = strpos($requestUri, '?')) !== false) {
+    $requestUri = substr($requestUri, 0, $pos);
+}
+
+// Determinar el directorio base del proyecto
+$projectDir = '/robs/public';
+if (strpos($requestUri, $projectDir) === 0) {
+    $requestUri = substr($requestUri, strlen($projectDir));
+}
+
+// Si la URL termina en /index.php, tratarla como /
+if ($requestUri === '/index.php' || $requestUri === '/index.php/') {
+    $requestUri = '/';
+}
+
+// Limpiar la URL
+$requestUri = '/' . ltrim($requestUri, '/');
+
+// Si está vacía, es la raíz
+if ($requestUri === '//') {
+    $requestUri = '/';
+}
+
+
     
     // Obtener método HTTP
     $method = $_SERVER['REQUEST_METHOD'];

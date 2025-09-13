@@ -105,28 +105,48 @@ class Router
      * Convertir path a expresión regular
      */
     private function pathToRegex(string $path): string
-    {
-        // Escapar caracteres especiales
-        $regex = preg_quote($path, '/');
-        
-        // Reemplazar parámetros {param} con grupos de captura
-        $regex = preg_replace('/\\\{([^}]+)\\\}/', '([^/]+)', $regex);
-        
-        return '/^' . $regex . '$/';
+{
+    // DEBUG: Mostrar qué path está procesando
+    
+    // Manejar rutas simples sin parámetros
+    if (strpos($path, '{') === false) {
+        $result = '/^' . preg_quote($path, '/') . '$/';
+        return $result;
     }
+    
+    // Para rutas con parámetros
+    $regex = preg_quote($path, '/');
+    
+    // Reemplazar parámetros {param} con grupos de captura
+    $regex = str_replace(['\{', '\}'], ['{', '}'], $regex);
+    
+    // Luego convertir {param} a grupos de captura
+    $regex = preg_replace('/\{[^}]+\}/', '([^/]+)', $regex);
+    $result = '/^' . $regex . '$/';
+    
+    return $result;
+}
     
     /**
      * Manejar la petición HTTP
+     */
+    /**
+     * Manejar la petición HTTP - Versión simplificada para debugging
      */
     public function handleRequest(string $method, string $uri): void
     {
         $uri = $this->normalizePath($uri);
         
-        foreach ($this->routes as $route) {
-            if ($route['method'] === $method && preg_match($route['regex'], $uri, $matches)) {
-                // Extraer parámetros de la URL
-                array_shift($matches); // Remover la coincidencia completa
-                $params = $matches;
+        
+        foreach ($this->routes as $index => $route) {
+            
+            // Solo procesar si el método coincide
+            if ($route['method'] !== $method) {
+                continue;
+            }
+            
+            // Comparación exacta para rutas sin parámetros
+            if ($route['path'] === $uri) {
                 
                 // Ejecutar middleware
                 foreach ($route['middleware'] as $middlewareClass) {
@@ -134,9 +154,10 @@ class Router
                 }
                 
                 // Ejecutar el handler
-                $this->executeHandler($route['handler'], $params);
+                $this->executeHandler($route['handler'], []);
                 return;
             }
+            
         }
         
         // No se encontró la ruta

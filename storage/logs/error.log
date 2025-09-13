@@ -1,0 +1,251 @@
+2025-08-25 23:22:58 - ERROR: require_once(C:\xampp\htdocs\ROBS/app/Utils/Helpers.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\ROBS\public\index.php on line 131
+2025-08-25 23:22:58 - EXCEPTION: Failed opening required 'C:\xampp\htdocs\ROBS/app/Utils/Helpers.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\ROBS\public\index.php on line 131
+2025-08-25 23:28:46 - ERROR: require_once(C:\xampp\htdocs\ROBS/app/Utils/Helpers.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\ROBS\public\index.php on line 131
+2025-08-25 23:28:46 - EXCEPTION: Failed opening required 'C:\xampp\htdocs\ROBS/app/Utils/Helpers.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\ROBS\public\index.php on line 131
+2025-08-25 23:31:50 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:50 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:50 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:50 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:50 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:50 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:50 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:50 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:50 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:50 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:50 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:50 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:50 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:50 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:50 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:50 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:50 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:50 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:50 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:50 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:50 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:50 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:50 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:50 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:50 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:50 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:50 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:50 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:52 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:52 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:52 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:52 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:52 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:52 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:52 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:52 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:52 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:52 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:52 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:52 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:52 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:52 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:52 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:52 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:52 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:52 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:52 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:52 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:52 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:52 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:52 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:52 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:52 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:52 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:52 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:31:52 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 126
+2025-08-25 23:34:42 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:42 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:42 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:42 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:42 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:42 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:42 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:42 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:42 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:42 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:42 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:42 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:42 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:42 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:42 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:42 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:42 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:42 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:42 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:42 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:42 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:42 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:42 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:42 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:42 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:42 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:42 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:42 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:43 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:43 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:43 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:43 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:43 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:43 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:43 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:43 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:43 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:43 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:43 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:43 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:43 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:43 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:43 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:43 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:43 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:43 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:43 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:43 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:43 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:43 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:43 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:43 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:43 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:43 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:43 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:43 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:44 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:34:45 - ERROR: preg_match(): Unknown modifier ']' in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 135
+2025-08-25 23:41:52 - ERROR: preg_match(): No ending delimiter '/' found in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 127
+2025-08-25 23:41:52 - ERROR: preg_match(): No ending delimiter '/' found in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 127
+2025-08-25 23:41:53 - ERROR: preg_match(): No ending delimiter '/' found in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 127
+2025-08-25 23:41:53 - ERROR: preg_match(): No ending delimiter '/' found in C:\xampp\htdocs\ROBS\app\Core\Router.php on line 127
+2025-08-25 23:45:54 - ERROR: Error de conexión: SQLSTATE[HY000] [1049] Unknown database 'robs_db'
+2025-08-25 23:45:54 - FATAL ERROR: Vista home.index no encontrada en C:\xampp\htdocs\ROBS/app/Views/home/index.php
+2025-08-25 23:48:58 - ERROR: Error de conexión: SQLSTATE[HY000] [1049] Unknown database 'robs_db'
+2025-08-25 23:48:58 - FATAL ERROR: Layout welcome no encontrado
+2025-08-25 23:49:00 - ERROR: Error de conexión: SQLSTATE[HY000] [1049] Unknown database 'robs_db'
+2025-08-25 23:49:00 - FATAL ERROR: Layout welcome no encontrado
+2025-08-25 23:50:46 - ERROR: Error de conexión: SQLSTATE[HY000] [1049] Unknown database 'robs_db'
+2025-08-25 23:52:15 - ERROR: Error de conexión: SQLSTATE[HY000] [1049] Unknown database 'robs_db'
+2025-08-25 23:52:52 - ERROR: Error de conexión: SQLSTATE[HY000] [1049] Unknown database 'robs_db'
+2025-08-25 23:53:25 - ERROR: Error de conexión: SQLSTATE[HY000] [1049] Unknown database 'robs_db'
+2025-08-26 00:01:59 - ERROR: Error de conexión: SQLSTATE[HY000] [1049] Unknown database 'robs_db'
+2025-08-26 00:02:01 - ERROR: Error de conexión: SQLSTATE[HY000] [1049] Unknown database 'robs_db'
+2025-08-26 00:06:09 - ERROR: Error de conexión: SQLSTATE[HY000] [1049] Unknown database 'robs_db'
+2025-08-26 00:07:30 - ERROR: Error de conexión: SQLSTATE[HY000] [1049] Unknown database 'robs_db'
+2025-08-26 06:59:10 - ERROR: Error de conexión: SQLSTATE[HY000] [1049] Unknown database 'robs_db'
+2025-09-13 11:36:12 - ERROR: Error de conexión: SQLSTATE[HY000] [1049] Unknown database 'robs_db'
+2025-09-13 11:45:09 - ERROR: Error de conexión: SQLSTATE[HY000] [1049] Unknown database 'robs_db'
+2025-09-13 11:47:48 - ERROR: Error de conexión: SQLSTATE[HY000] [1049] Unknown database 'robs_db'
+2025-09-13 11:48:46 - ERROR: Error de conexión: SQLSTATE[HY000] [1049] Unknown database 'robs_db'

@@ -7,6 +7,13 @@
  */
 class HomeController extends Controller
 {
+    public function __construct()
+    {
+        parent::__construct();
+        // Usar el layout principal 'main' en lugar de 'welcome'
+        $this->setLayout('main');
+    }
+
     /**
      * Página de inicio
      */
@@ -20,12 +27,12 @@ class HomeController extends Controller
         
         // Datos para la vista de inicio
         $data = [
-            'title' => 'Bienvenido a ROBS',
+            'title' => 'Bienvenido a ROBS - Sistema POS',
+            'page_title' => 'ROBS - Sistema POS',
             'systemInfo' => $this->getSystemStatus(),
             'features' => $this->getSystemFeatures()
         ];
         
-        $this->setLayout('welcome');
         $this->view('home.index', $data);
     }
     
@@ -36,6 +43,7 @@ class HomeController extends Controller
     {
         $data = [
             'title' => 'Acerca de ROBS',
+            'page_title' => 'Acerca de ROBS',
             'version' => config('app.version', '1.0.0'),
             'description' => config('app.description', 'Sistema POS para restaurantes')
         ];
@@ -49,7 +57,8 @@ class HomeController extends Controller
     public function contact(): void
     {
         $data = [
-            'title' => 'Contacto',
+            'title' => 'Contacto - ROBS',
+            'page_title' => 'Contacto',
             'contact_info' => [
                 'email' => 'support@robs.com',
                 'phone' => '+52 (555) 123-4567',
@@ -67,14 +76,14 @@ class HomeController extends Controller
     {
         try {
             // Verificar conexión a base de datos
-            $dbStatus = testDatabaseConnection();
+            $dbStatus = $this->testDatabaseConnection();
             
             // Verificar directorios necesarios
             $directories = [
                 'storage' => is_writable(STORAGE_PATH),
                 'logs' => is_writable(STORAGE_PATH . '/logs'),
-                'cache' => is_writable(STORAGE_PATH . '/cache'),
-                'uploads' => is_writable(PUBLIC_PATH . '/assets/uploads')
+                'cache' => is_dir(STORAGE_PATH . '/cache'),
+                'uploads' => is_dir(PUBLIC_PATH . '/assets')
             ];
             
             return [
@@ -114,7 +123,7 @@ class HomeController extends Controller
                 'description' => 'Manejo independiente de múltiples restaurantes desde un solo sistema'
             ],
             [
-                'icon' => 'menu',
+                'icon' => 'utensils',
                 'title' => 'Gestión de Menú',
                 'description' => 'Administración completa de productos, categorías y modificadores'
             ],
@@ -124,17 +133,17 @@ class HomeController extends Controller
                 'description' => 'Toma de órdenes optimizada para tablets, computadoras y QR'
             ],
             [
-                'icon' => 'cash',
+                'icon' => 'cash-register',
                 'title' => 'Control Financiero',
                 'description' => 'Manejo de turnos, pagos, propinas y movimientos de efectivo'
             ],
             [
-                'icon' => 'chart',
+                'icon' => 'chart-bar',
                 'title' => 'Reportes Avanzados',
                 'description' => 'Analytics en tiempo real con reportes detallados de ventas'
             ],
             [
-                'icon' => 'printer',
+                'icon' => 'print',
                 'title' => 'Impresión Automática',
                 'description' => 'Comandas automáticas a cocina y recibos de pago'
             ],
@@ -144,5 +153,19 @@ class HomeController extends Controller
                 'description' => 'Recopilación de feedback de clientes vía tablet o QR'
             ]
         ];
+    }
+
+    /**
+     * Verificar conexión a la base de datos
+     */
+    private function testDatabaseConnection(): bool
+    {
+        try {
+            $db = Database::getInstance();
+            $db->query("SELECT 1");
+            return true;
+        } catch (Exception $e) {
+            return false;
+        }
     }
 }
