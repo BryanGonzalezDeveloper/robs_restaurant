@@ -108,7 +108,7 @@
 
             <!-- Acciones -->
             <div class="text-center">
-                <a href="<?= url('login') ?>" class="btn btn-primary btn-lg me-3">
+                <a href="<?= url('robs/public/login') ?>" class="btn btn-primary btn-lg me-3">
                     <i class="fas fa-sign-in-alt me-2"></i>
                     Iniciar Sesión
                 </a>

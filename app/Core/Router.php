@@ -102,41 +102,35 @@ class Router
     }
     
     /**
-     * Convertir path a expresión regular
+     * Convertir path a expresión regular - CORREGIDO
      */
     private function pathToRegex(string $path): string
-{
-    // DEBUG: Mostrar qué path está procesando
-    
-    // Manejar rutas simples sin parámetros
-    if (strpos($path, '{') === false) {
-        $result = '/^' . preg_quote($path, '/') . '$/';
+    {
+        // Manejar rutas simples sin parámetros
+        if (strpos($path, '{') === false) {
+            $result = '/^' . preg_quote($path, '/') . '$/';
+            return $result;
+        }
+        
+        // Para rutas con parámetros
+        $regex = preg_quote($path, '/');
+        
+        // Reemplazar parámetros {param} con grupos de captura
+        $regex = str_replace(['\{', '\}'], ['{', '}'], $regex);
+        
+        // Luego convertir {param} a grupos de captura
+        $regex = preg_replace('/\{[^}]+\}/', '([^/]+)', $regex);
+        $result = '/^' . $regex . '$/';
+        
         return $result;
     }
     
-    // Para rutas con parámetros
-    $regex = preg_quote($path, '/');
-    
-    // Reemplazar parámetros {param} con grupos de captura
-    $regex = str_replace(['\{', '\}'], ['{', '}'], $regex);
-    
-    // Luego convertir {param} a grupos de captura
-    $regex = preg_replace('/\{[^}]+\}/', '([^/]+)', $regex);
-    $result = '/^' . $regex . '$/';
-    
-    return $result;
-}
-    
     /**
-     * Manejar la petición HTTP
-     */
-    /**
-     * Manejar la petición HTTP - Versión simplificada para debugging
+     * Manejar la petición HTTP - SIMPLIFICADO
      */
     public function handleRequest(string $method, string $uri): void
     {
         $uri = $this->normalizePath($uri);
-        
         
         foreach ($this->routes as $index => $route) {
             
@@ -158,6 +152,19 @@ class Router
                 return;
             }
             
+            // Para rutas con parámetros, usar regex
+            if (preg_match($route['regex'], $uri, $matches)) {
+                array_shift($matches); // Remover el match completo
+                
+                // Ejecutar middleware
+                foreach ($route['middleware'] as $middlewareClass) {
+                    $this->executeMiddleware($middlewareClass);
+                }
+                
+                // Ejecutar el handler con parámetros
+                $this->executeHandler($route['handler'], $matches);
+                return;
+            }
         }
         
         // No se encontró la ruta
@@ -269,6 +276,7 @@ class Router
         } else {
             echo "<h1>404 - Página no encontrada</h1>";
             echo "<p>La página que buscas no existe.</p>";
+            echo "<p>Ruta solicitada: " . $_SERVER['REQUEST_URI'] . "</p>";
         }
     }
     
